@@ -3837,7 +3837,7 @@ function Outfitter_UpdateAuraStates()
 	
 	-- As of 1.12 aura changes are the only way to detect shapeshifts, so update those too
 	
-	Outfitter_UpdateShapeshiftState();
+	-- Outfitter_UpdateShapeshiftState(); -- Warpman
 end
 
 function Outfitter_UpdateShapeshiftState()
